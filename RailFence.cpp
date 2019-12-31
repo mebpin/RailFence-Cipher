@@ -1,4 +1,4 @@
-//Railfence Cipher
+//Rail Fence Cipher
 //code by Bipin Timalsina
 #include<iostream>
 #include<string>
@@ -108,7 +108,7 @@ class RailFence{
 	            if (rail_matrix[i][j] == '~' && indx<msg.length()) 
 	     			rail_matrix[i][j] = msg[indx++]; 
 	    	}
-		}           
+	    }           
 	  
 	  
 	    //  reading  the matrix in zig-zag order to get the plaintext  
